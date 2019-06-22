@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <title>Finder Survey</title>
+    <title>Army Survey</title>
 </head>
 
 <body>
@@ -22,7 +20,7 @@
         <h1>Survey Questionnaire</h1>
         <hr>
 
-        <h2><strong>About You</strong></h2>
+        <h2><strong>User Info</strong></h2>
         <h4>Name (Required)</h4>
         <input type="text" id="name" class="form-control" required>
 
@@ -31,113 +29,112 @@
         <hr>
 
         <h4><strong>Question 1</strong></h4>
-        <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-        <select class="custom-select" id="q1">
+        <h5>Your army should consist of a few elite warriors/units, hordes are for chumps!</h5>
+        <select class="custom-select col-sm-3" id="q1">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 2</strong></h4>
-        <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
-        <select class="custom-select" id="q2">
+        <h5>The largest models in your army should be tanks, not giant mecha or monsters.</h5>
+        <select class="custom-select col-sm-3" id="q2">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 3</strong></h4>
-        <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
-        <select class="custom-select" id="q3">
+        <h5>Humanity is always the best race in any fictional universes</h5>
+        <select class="custom-select col-sm-3" id="q3">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 4</strong></h4>
-        <h5>You rarely do something just out of sheer curiosity.</h5>
-        <select class="custom-select" id="q4">
+        <h5>My army prefers overwhelming firepower over tactical flexibility</h5>
+        <select class="custom-select col-sm-3" id="q4">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 5</strong></h4>
-        <h5>People can rarely upset you.</h5>
-        <select class="custom-select" id="q5">
+        <h5>If unearthly/unnatural powers existed, you would want your army to take full advantage of them</h5>
+        <select class="custom-select col-sm-3" id="q5">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
 
         <h4><strong>Question 6</strong></h4>
-        <h5>It is often difficult for you to relate to other people’s feelings.</h5>
-        <select class="custom-select" id="q6">
+        <h5>Your army believes that the swirl of melee combat is the true measure of strength</h5>
+        <select class="custom-select col-sm-3" id="q6">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 7</strong></h4>
-        <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
-        <select class="custom-select" id="q7">
+        <h5>Fanciful technology is way cooler then exotic/monstrous power</h5>
+        <select class="custom-select col-sm-3" id="q7">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 8</strong></h4>
-        <h5>You rarely get carried away by fantasies and ideas.</h5>
-        <select class="custom-select" id="q8">
+        <h5>You want an army with a wide variety of possible builds/styles</h5>
+        <select class="custom-select col-sm-3" id="q8">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 9</strong></h4>
-        <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or
-            not.</h5>
-        <select class="custom-select" id="q9">
+        <h5>If you had to choose between speed and toughness, you would always prefer speed.</h5>
+        <select class="custom-select col-sm-3" id="q9">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
         <h4><strong>Question 10</strong></h4>
-        <h5>You feel more energetic after spending time with a group of people.</h5>
-        <select class="custom-select" id="q10">
+        <h5>You want an army that has the possibility for allies</h5>
+        <select class="custom-select col-sm-3" id="q10">
             <option value="">Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="3">3 (Neutral/Indifferent)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
@@ -148,7 +145,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Found a Friend for you!</h5>
+                        <h5 class="modal-title">Found an army for you!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -168,7 +165,7 @@
 
         <footer class="footer">
             <div class="container">
-                <p><a href="/api/friends">API Friends</a> | <a href="https://github.com/SMLM42/Friend_Finder">Github
+                <p><a href="/api/friends">API Army List</a> | <a href="https://github.com/SMLM42/Friend_Finder">Github
                         Repo</a></p>
             </div>
         </footer>
@@ -196,7 +193,7 @@
         // If all questions are answered
         if (validateForm()) {
             // Create an object for the user"s data
-            var newFriend = {
+            var newPlayer = {
                 name: $("#name").val().trim(),
                 photo: $("#photo").val().trim(),
                 scores: [
@@ -213,8 +210,8 @@
                 ]
             };
 
-            // Send newFriend info into apiRoutes to eventually be stored in friendsDB
-            $.post("/api/friends", newFriend, function (data) {
+            // Send newPlayer info into apiRoutes to eventually be stored in friendsDB
+            $.post("/api/friends", newPlayer, function (data) {
                 console.log(data);
                 $("#foundName").text(data.name);
                 $("#foundPhoto").attr("src", data.photo);

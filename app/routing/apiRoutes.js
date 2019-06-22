@@ -15,8 +15,8 @@ module.exports = function (app) {
             var friend = friendData[i]
             console.log(friendData.length)
             var diff = 0
-            for (var ii = 0; ii < friend.scores.length; ii++) {
-                var a = Math.abs(parseInt(newFriend.scores[ii]) - parseInt(friend.scores[ii]))
+            for (var j = 0; j < friend.scores.length; j++) {
+                var a = Math.abs(parseInt(newFriend.scores[j]) - parseInt(friend.scores[j]))
                 diff += a
             }
             diffTotals.push(diff)
